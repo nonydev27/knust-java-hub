@@ -10,18 +10,18 @@ public class Main {
         System.out.println(" Enter Exam Score: ");
         examScore = input.nextInt();
 
-        // FIX 1: Swapped these to be correct
+        
         System.out.println(" Enter Assesment Score: ");
         assesment = input.nextInt();
 
         System.out.println(" Enter Amount Paid(Fees): ");
         Fees = input.nextInt();
 
-        // LOGIC START
+      
         boolean isPassed = false;
         boolean isCondoned = false;
 
-        // 1. Check Standard Pass
+        // So this checks whether the exam has been passed or not
         if (examScore >= 25 && assesment >= 15) {
             isPassed = true;
         } 
