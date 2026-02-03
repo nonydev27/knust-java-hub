@@ -2,6 +2,16 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        //requirement 1
+        //requirement 2
+
+        //fees && cert
+
+        //for loops
+
+        
+
         Scanner input = new Scanner(System.in);
         int examScore;
         int Fees;
@@ -44,12 +54,12 @@ public class Main {
                 System.out.println("Result: NO CERTIFICATE (Fees unpaid)");
             }
 
-          
+            if (isPassed == false){
 
-                 if ((examScore != 24  && assesment != 15) || (examScore !=25 && assesment != 14)){
+            if ((examScore != 24  && assesment != 15) || (examScore !=25 && assesment != 14)){
                 System.out.println("You have failed to meet the necesary pass mark!");
             }
-       
+            }
 
         } else {
             System.out.println("Academic Status: FAILED");
