@@ -43,7 +43,7 @@ Here is what is currently available in the hub:
 | **`CheckDayStatus`** | This program is to check the present day and then render an output using switches | 🟢 Completed |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
 | **`ElectricityBillCalculator`** | ... | ⏳ Pending |
-| **`CinemaTicketBooking`** | ... | ⏳ Pending |
+| **`FuelConsumptionAnalysis`** | ... | ⏳ Pending |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
