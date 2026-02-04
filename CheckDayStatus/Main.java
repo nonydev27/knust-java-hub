@@ -1,4 +1,4 @@
-package CheckDayStatus_switches;
+package CheckDayStatus;
   public class Main{
     public static void main(String[] args) {
 

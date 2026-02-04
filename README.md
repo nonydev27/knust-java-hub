@@ -40,6 +40,7 @@ Here is what is currently available in the hub:
 | **`GradingSystem`** | A KNUST-compliant grading system that handles Assessment, Exams, Condonement logic, and Fee validation. | 🟢 Completed |
 | **`AverageStandardDFact`** | A utility to calculate Mean, Standard Deviation, and Factorials using Java loops and math logic. | 🟢 Completed |
 | **`VotingSystem`** | A system which takes input of a user and checks if he or she is eligble to vote using if statements. | 🟢 Completed |
+| **`CheckDayStatus`** | This program is to check the present day and then render an output using switches | 🟢 Completed |
 | **`More Coming Soon...`** | *Stay tuned for more assignments!* | ⏳ Pending |
 ---
 
