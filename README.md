@@ -37,8 +37,8 @@ Here is what is currently available in the hub:
 
 | Folder Name | Description | Status |
 | :--- | :--- | :--- |
-| **(`GGrading System`)**[https://www.google.com] | A KNUST-compliant grading system that handles Assessment, Exams, Condonement logic, and Fee validation. | 🟢 Completed |
-| **`AVERAGE_STD_DEV`** | A utility to calculate Mean, Standard Deviation, and Factorials using Java loops and math logic. | 🟢 Completed |
+| **`GradingSystem`** | A KNUST-compliant grading system that handles Assessment, Exams, Condonement logic, and Fee validation. | 🟢 Completed |
+| **`AverageStandardDFact`** | A utility to calculate Mean, Standard Deviation, and Factorials using Java loops and math logic. | 🟢 Completed |
 | **`More Coming Soon...`** | *Stay tuned for more assignments!* | ⏳ Pending |
 |**`
 
