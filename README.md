@@ -42,6 +42,11 @@ Here is what is currently available in the hub:
 | **`VotingSystem`** | A system which takes input of a user and checks if he or she is eligble to vote using if statements. | 🟢 Completed |
 | **`CheckDayStatus`** | This program is to check the present day and then render an output using switches | 🟢 Completed |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
+| **`CinemaTicketBooking`** | ... | ⏳ Pending |
+| **`CinemaTicketBooking`** | ... | ⏳ Pending |
+| **`CinemaTicketBooking`** | ... | ⏳ Pending |
+| **`CinemaTicketBooking`** | ... | ⏳ Pending |
+| **`CinemaTicketBooking`** | ... | ⏳ Pending |
 | **`More Coming Soon...`** | *Stay tuned for more assignments!* | ⏳ Pending |
 ---
 
