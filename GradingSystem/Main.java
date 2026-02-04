@@ -29,7 +29,7 @@ public class Main {
         boolean isPassed = false;
         boolean isCondoned = false;
 
-    
+     
         if (examScore >= 25 && assesment >= 15) {
             isPassed = true;
         } 
