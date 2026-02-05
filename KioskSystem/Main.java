@@ -27,48 +27,73 @@ Develop a Java program named *KioskSystem* that simulates a fast-food ordering t
 
 
 public static void main(String[] args){
-    System.out.println("WELCOME TO NONY'S FAST FOOD!"); 
-    System.out.println("======= WE ARE OPEN ========");
-
-    
-    String choice = " ";
-    int quantity = 0;
-    boolean checkout = false;
-
-
-
-    switch(choice){
-
-        case "1" : System.out.println("You selected Burger only, please whats the quantity you want?");
-        break;
-
-        case "2" : System.out.println("You selected Fries only, please whats the quantity you want?");
-        break;
-
-        case "3" : System.out.println("You selected Burger & Fries only, please whats the quantity you want?");
-        break;
-
-        default: System.out.println("Invalid Selection!");
-    }
-
-    do {
-        System.out.println("We provide quality and affordable burgers as well as fries");
-    System.out.println("What will you like to purchase?");
-    Scanner scanner = new Scanner(System.in);
-
-    System.out.println("1. Burger only");
-    System.out.println("2. Fries only");
-    System.out.println("3. Burger & Fries only");
-
-
-    System.out.println();
-    System.out.print("CHOICE: ");
-    choice = scanner.nextLine();
-
-   quantity = scanner.nextInt();
+     Scanner scanner = new Scanner(System.in);
         
+        // Data Accumulation variables
+        double grandTotal = 0.0;
+        int totalItemCount = 0;
+        
+        // Item Prices
+        double burgerPrice = 5.99;
+        double friesPrice = 2.50;
 
-    } while (checkout == true);
+        System.out.println("WELCOME TO NONY'S FAST FOOD!");
+        System.out.println("======= WE ARE OPEN ========");
+
+        String choice;
+        boolean checkout = false;
+
+        do {
+            System.out.println("\n--- MENU ---");
+            System.out.println("1. Burger ($5.99)");
+            System.out.println("2. Fries ($2.50)");
+            System.out.println("3. Checkout");
+            System.out.print("CHOICE: ");
+            choice = scanner.nextLine();
+
+            switch (choice) {
+                case "1":
+                    System.out.print("How many Burgers? ");
+                    int bQty = Integer.parseInt(scanner.nextLine());
+                    if (bQty >= 0) {
+                        grandTotal += bQty * burgerPrice;
+                        totalItemCount += bQty;
+                        System.out.println("Added " + bQty + " Burgers to cart.");
+                    } else {
+                        System.out.println("Error: Quantity cannot be negative.");
+                    }
+                    break;
+
+                case "2":
+                    System.out.print("How many Fries? ");
+                    int fQty = Integer.parseInt(scanner.nextLine());
+                    if (fQty >= 0) {
+                        grandTotal += fQty * friesPrice;
+                        totalItemCount += fQty;
+                        System.out.println("Added " + fQty + " Fries to cart.");
+                    } else {
+                        System.out.println("Error: Quantity cannot be negative.");
+                    }
+                    break;
+
+                case "3":
+                    checkout = true;
+                    break;
+
+                default:
+                    System.out.println("Invalid Selection! Please choose 1, 2, or 3.");
+            }
+
+        } while (!checkout);
+
+        // Final Checkout Output
+        System.out.println("\n============================");
+        System.out.println("TOTAL ITEMS: " + totalItemCount);
+        System.out.printf("GRAND TOTAL: $%.2f\n", grandTotal);
+        System.out.println("THANK YOU FOR PATRONIZING!");
+        System.out.println("============================");
+        
+        scanner.close();
     
  
 }   
