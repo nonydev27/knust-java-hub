@@ -1,5 +1,5 @@
 package KioskSystem;
-
+import java.util.Scanner;
 public class Main {
 
     /**QUESTION 6*
@@ -29,6 +29,29 @@ Develop a Java program named *KioskSystem* that simulates a fast-food ordering t
 public static void main(String[] args){
     System.out.println("WELCOME TO NONY'S FAST FOOD!"); 
     System.out.println("======= WE ARE OPEN ========");
+
+    System.out.println("We provide quality and affordable burgers as well as fries");
+    System.out.println("What will you like to purchase?");
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.println("1. Burger only");
+    System.out.println("1. Fries only");
+    System.out.println("1. Burger & Fries only");
+
+    String choice = " ";
+    choice = scanner.nextLine();
+
+    switch(choice){
+
+        case "1" : System.out.println("You selected Burger only, please whats the quantity you want?");
+
+        case "2" : System.out.println("You selected Fries only, please whats the quantity you want?");
+
+        case "3" : System.out.println("You selected Burger & Fries only, please whats the quantity you want?");
+    }
+    scanner.close();
 }   
+
+
 
 }

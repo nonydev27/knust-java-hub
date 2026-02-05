@@ -1,4 +1,4 @@
-package Greetings;
+s
 import java.util.Scanner;
 
 public class Pain {
