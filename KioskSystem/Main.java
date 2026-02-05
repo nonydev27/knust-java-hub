@@ -35,10 +35,6 @@ public static void main(String[] args){
     int quantity = 0;
     boolean checkout = false;
 
-    System.out.println();
-    System.out.print("CHOICE: ");
-    choice = scanner.nextLine();
-
 
 
     switch(choice){
@@ -56,7 +52,7 @@ public static void main(String[] args){
     }
 
     do {
-    System.out.println("We provide quality and affordable burgers as well as fries");
+        System.out.println("We provide quality and affordable burgers as well as fries");
     System.out.println("What will you like to purchase?");
     Scanner scanner = new Scanner(System.in);
 
@@ -65,14 +61,16 @@ public static void main(String[] args){
     System.out.println("3. Burger & Fries only");
 
 
-        System.out.print("CHOICE: ");
-        choice = scanner.nextLine();
+    System.out.println();
+    System.out.print("CHOICE: ");
+    choice = scanner.nextLine();
 
+   quantity = scanner.nextInt();
         
 
     } while (checkout == true);
     
-    quantity = scanner.nextInt();
+ 
 }   
 
 
