@@ -1,4 +1,5 @@
 package KioskSystem;
+import java.util.Scanner;
 public class Main {
 
     /*
@@ -26,61 +27,56 @@ Develop a Java program named *KioskSystem* that simulates a fast-food ordering t
 
 
 public static void main(String[] args){
-    // System.out.println("WELCOME TO NONY'S FAST FOOD!"); 
-    // System.out.println("======= WE ARE OPEN ========");
+    System.out.println("WELCOME TO NONY'S FAST FOOD!"); 
+    System.out.println("======= WE ARE OPEN ========");
 
-    // System.out.println("We provide quality and affordable burgers as well as fries");
-    // System.out.println("What will you like to purchase?");
-    // Scanner scanner = new Scanner(System.in);
+    System.out.println("We provide quality and affordable burgers as well as fries");
+    System.out.println("What will you like to purchase?");
+    Scanner scanner = new Scanner(System.in);
 
-    // System.out.println("1. Burger only");
-    // System.out.println("2. Fries only");
-    // System.out.println("3. Burger & Fries only");
+    System.out.println("1. Burger only");
+    System.out.println("2. Fries only");
+    System.out.println("3. Burger & Fries only");
 
-    // String choice = " ";
-    // int quantity = 0;
-    // choice = scanner.nextLine();
+    String choice = " ";
+    int quantity = 0;
+    boolean checkout = false;
 
-    // String[][] cars = new String[3][3];
-    String[][] cars =  {{"Toyota", "Benz", "Rolls Royce"}, {"Ferrari", "Mercedes", "Ford"}, {"BMW", "Volts", "Tesla"}};
+    System.out.println();
+    System.out.print("CHOICE: ");
+    choice = scanner.nextLine();
 
-    // cars[0][0] = "Toyota";
-    // cars[0][1] = "Benz";
-    // cars[0][2] = "Rolls Royce";
-    // cars[1][0] = "Ferarri";
-    // cars[1][1] = "Kia";
-    // cars[1][2] = "Ford";
-    // cars[2][0] = "Lamboghuini";
-    // cars[2][1] = "Tesla";
-    // cars[2][2] = "VW";
 
-    for (int i =0; i<cars.length; i++) {
-        System.out.println();
 
-        for(int j = 0; j<cars[i].length; j++ ){
-            System.out.print (cars[i][j]+ "   ");
-        }
+    switch(choice){
+
+        case "1" : System.out.println("You selected Burger only, please whats the quantity you want?");
+        break;
+
+        case "2" : System.out.println("You selected Fries only, please whats the quantity you want?");
+        break;
+
+        case "3" : System.out.println("You selected Burger & Fries only, please whats the quantity you want?");
+        break;
+
+        default: System.out.println("Invalid Selection!");
     }
 
+    do {
+         System.out.println("What will you like to purchase?");
 
-    // switch(choice){
+          System.out.println("1. Burger only");
+         System.out.println("2. Fries only");
+         System.out.println("3. Burger & Fries only");
 
-    //     case "1" : System.out.println("You selected Burger only, please whats the quantity you want?");
-    //     break;
+        System.out.print("CHOICE: ");
+        choice = scanner.nextLine();
 
-    //     case "2" : System.out.println("You selected Fries only, please whats the quantity you want?");
-    //     break;
+        
 
-    //     case "3" : System.out.println("You selected Burger & Fries only, please whats the quantity you want?");
-    //     break;
-
-    //     default: System.out.println("Invalid Selection!");
-    // }
-
-    // do {
-    //     System.out.println("Add another?");
-    // } while (quantity<0);
-    // quantity = scanner.nextInt();
+    } while (checkout == true);
+    
+    quantity = scanner.nextInt();
 }   
 
 
