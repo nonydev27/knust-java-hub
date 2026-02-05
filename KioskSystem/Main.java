@@ -30,14 +30,7 @@ public static void main(String[] args){
     System.out.println("WELCOME TO NONY'S FAST FOOD!"); 
     System.out.println("======= WE ARE OPEN ========");
 
-    System.out.println("We provide quality and affordable burgers as well as fries");
-    System.out.println("What will you like to purchase?");
-    Scanner scanner = new Scanner(System.in);
-
-    System.out.println("1. Burger only");
-    System.out.println("2. Fries only");
-    System.out.println("3. Burger & Fries only");
-
+    
     String choice = " ";
     int quantity = 0;
     boolean checkout = false;
@@ -63,11 +56,14 @@ public static void main(String[] args){
     }
 
     do {
-         System.out.println("What will you like to purchase?");
+    System.out.println("We provide quality and affordable burgers as well as fries");
+    System.out.println("What will you like to purchase?");
+    Scanner scanner = new Scanner(System.in);
 
-          System.out.println("1. Burger only");
-         System.out.println("2. Fries only");
-         System.out.println("3. Burger & Fries only");
+    System.out.println("1. Burger only");
+    System.out.println("2. Fries only");
+    System.out.println("3. Burger & Fries only");
+
 
         System.out.print("CHOICE: ");
         choice = scanner.nextLine();
