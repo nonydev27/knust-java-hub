@@ -2,7 +2,7 @@ package KioskSystem;
 import java.util.Scanner;
 public class Main {
 
-    /**QUESTION 6*
+    /*
 Develop a Java program named *KioskSystem* that simulates a fast-food ordering terminal. The program must allow for multiple items to be added to a cart before final checkout.
 
 1. *Iterative Logic:*
@@ -35,21 +35,31 @@ public static void main(String[] args){
     Scanner scanner = new Scanner(System.in);
 
     System.out.println("1. Burger only");
-    System.out.println("1. Fries only");
-    System.out.println("1. Burger & Fries only");
+    System.out.println("2. Fries only");
+    System.out.println("3. Burger & Fries only");
 
     String choice = " ";
+    int quantity = 0;
     choice = scanner.nextLine();
 
     switch(choice){
 
         case "1" : System.out.println("You selected Burger only, please whats the quantity you want?");
+        break;
 
         case "2" : System.out.println("You selected Fries only, please whats the quantity you want?");
+        break;
 
         case "3" : System.out.println("You selected Burger & Fries only, please whats the quantity you want?");
+        break;
+
+        default: System.out.println("Invalid Selection!");
     }
-    scanner.close();
+
+    do {
+        System.out.println("Add another?");
+    } while (quantity<0);
+    quantity = scanner.nextInt();
 }   
 
 
