@@ -24,5 +24,11 @@ Develop a Java program named *KioskSystem* that simulates a fast-food ordering t
 5. *Output Requirements:*
 • Provide feedback after every successful addition (e.g., "Added 2 Burgers to cart").
 • Upon checkout, display the total number of items purchased and the final bill amount formatted to 2 decimal places. */
-    
+
+
+public static void main(String[] args){
+    System.out.println("WELCOME TO NONY'S FAST FOOD!"); 
+    System.out.println("======= WE ARE OPEN ========");
+}   
+
 }
