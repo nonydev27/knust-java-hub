@@ -26,15 +26,22 @@ For each day, categorize the fuel usage based on these thresholds:
 * Use printf to ensure all fuel values and averages are displayed to 2 decimal places. */
 
 public static void main(String[] args){
-    double fuelConsumption[] = {12.5, 22.0, 8.4, 18.6, 25.3, 9.8, 15.0};
+
+    //according to the question, the array is to be initialized as shown below
+    double fuelConsumption[] = new double[] {12.5, 22.0, 8.4, 18.6, 25.3, 9.8, 15.0};
     double totalConsumption = 0;
-    double averageFuelConsumption = (totalConsumption/2);
+
+    //the reason why it is divided by seven is because there are seven days in a week, hence finding the average will be the total sum of litres by 7
+    double averageFuelConsumption = (totalConsumption/7);
 
     // while (fuelConsumption.length<0) { 
     //     System.out.println("sup");
     // }
 
     //using a for loop
+    for(int i=0; fuelConsumption.length<0; i++){
+        System.out.println(fuelConsumption[i]);
+    }
 }
 }
 
