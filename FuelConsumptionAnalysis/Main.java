@@ -27,6 +27,8 @@ For each day, categorize the fuel usage based on these thresholds:
 
 public static void main(String[] args){
     double fuelConsumption[] = {12.5, 22.0, 8.4, 18.6, 25.3, 9.8, 15.0};
+    double totalConsumption = 0;
+    double
 }
 }
 
