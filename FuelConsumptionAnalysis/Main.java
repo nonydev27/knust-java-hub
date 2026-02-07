@@ -30,9 +30,11 @@ public static void main(String[] args){
     double totalConsumption = 0;
     double averageFuelConsumption = (totalConsumption/2);
 
-    while (fuelConsumption.length<0) { 
-        System.out.println("sup");
-    }
+    // while (fuelConsumption.length<0) { 
+    //     System.out.println("sup");
+    // }
+
+    //using a for loop
 }
 }
 
