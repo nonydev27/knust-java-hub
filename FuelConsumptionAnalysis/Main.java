@@ -29,6 +29,10 @@ public static void main(String[] args){
     double fuelConsumption[] = {12.5, 22.0, 8.4, 18.6, 25.3, 9.8, 15.0};
     double totalConsumption = 0;
     double averageFuelConsumption = (totalConsumption/2);
+
+    while (fuelConsumption.length<0) { 
+        System.out.println("sup");
+    }
 }
 }
 
