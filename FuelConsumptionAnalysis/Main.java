@@ -34,8 +34,6 @@ public static void main(String[] args){
     double totalNormal = 0;
     double totalLow = 0;
 
-    //the reason why it is divided by seven is because there are seven days in a week, hence finding the average will be the total sum of litres by 7
-    double averageFuelConsumption = (totalConsumption/7);
 
     // while (fuelConsumption.length<0) { 
     //     System.out.println("sup");
@@ -74,6 +72,13 @@ public static void main(String[] args){
       System.out.println("Total litres used under low is: "+totalLow);
 
       totalConsumption = totalHigh+totalLow+totalNormal;
+      System.out.println();
+
+    //the reason why it is divided by seven is because there are seven days in a week, hence finding the average will be the total sum of litres by 7
+    double averageFuelConsumption = (totalConsumption/7);
+
+      System.out.println("TOTAL FUEL CONSUMPTION FOR THE WEEK: " +totalConsumption);
+      System.out.println("AVERAGE FUEL CONSUMPTION FOR THE WEEK: "+averageFuelConsumption);
 }
 }
 
