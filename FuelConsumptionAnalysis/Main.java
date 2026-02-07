@@ -30,6 +30,9 @@ public static void main(String[] args){
     //according to the question, the array is to be initialized as shown below
     double fuelConsumption[] = {12.5, 22.0, 8.4, 18.6, 25.3, 9.8, 15.0};
     double totalConsumption = 0;
+    double totalHigh = 0;
+    double totalNormal = 0;
+    double totalLow = 0;
 
     //the reason why it is divided by seven is because there are seven days in a week, hence finding the average will be the total sum of litres by 7
     double averageFuelConsumption = (totalConsumption/7);
@@ -40,15 +43,37 @@ public static void main(String[] args){
 
     //using a for loop(trial, not in the question per say)
     for(int i=0; i<fuelConsumption.length; i++){
-        System.out.println(fuelConsumption[i]);
+        // System.out.println(fuelConsumption[i]);
         if(fuelConsumption[i] > 20.0){
-            System.out.println("High");
+            System.out.println("");
+            System.out.print("High: ");
+            System.out.println(fuelConsumption[i]);         
+            totalHigh = fuelConsumption[i] + totalHigh;
+          
         }else if(fuelConsumption[i] < 10){
-            System.out.println("Low");
+            System.out.println("");
+            System.out.print("Low: ");
+            System.out.println(fuelConsumption[i]);
+            totalLow = fuelConsumption[i] + totalLow;
+
+
         }else if(fuelConsumption[i] >= 10 || fuelConsumption[i] <20){
-            System.out.println("Normal");
+            System.out.println("");
+            System.out.print("Normal: ");
+            System.out.println(fuelConsumption[i]);
+            totalNormal = fuelConsumption[i] + totalNormal;
+
         }
+
+      
+
     }
+
+      System.out.println("Total litres used under high is: "+totalHigh);
+      System.out.println("Total litres used under normal is: "+totalNormal);  
+      System.out.println("Total litres used under low is: "+totalLow);
+
+      totalConsumption = totalHigh+totalLow+totalNormal;
 }
 }
 
