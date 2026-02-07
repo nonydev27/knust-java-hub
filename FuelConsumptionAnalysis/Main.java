@@ -24,4 +24,10 @@ For each day, categorize the fuel usage based on these thresholds:
 5. Output Formatting:
 * Print a line-by-line report for each day.
 * Use printf to ensure all fuel values and averages are displayed to 2 decimal places. */
+
+public static void main(String[] args){
+    double fuelConsumption[] = {12.5, 22.0, 8.4, 18.6, 25.3, 9.8, 15.0};
 }
+}
+
+
