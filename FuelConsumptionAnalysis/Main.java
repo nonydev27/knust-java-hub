@@ -41,6 +41,13 @@ public static void main(String[] args){
     //using a for loop(trial, not in the question per say)
     for(int i=0; i<fuelConsumption.length; i++){
         System.out.println(fuelConsumption[i]);
+        if(fuelConsumption[i] > 20.0){
+            System.out.println("High");
+        }else if(fuelConsumption[i] < 10){
+            System.out.println("Low");
+        }else if(fuelConsumption[i] >= 10 || fuelConsumption[i] <20){
+            System.out.println("Normal");
+        }
     }
 }
 }
