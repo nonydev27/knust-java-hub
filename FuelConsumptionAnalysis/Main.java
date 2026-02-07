@@ -79,6 +79,7 @@ public static void main(String[] args){
 
       System.out.println("TOTAL FUEL CONSUMPTION FOR THE WEEK: " +totalConsumption);
       System.out.println("AVERAGE FUEL CONSUMPTION FOR THE WEEK: "+averageFuelConsumption);
+      
 }
 }
 
