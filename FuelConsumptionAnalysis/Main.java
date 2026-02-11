@@ -47,7 +47,7 @@ public class Main {
             
             if (currentVal > 20) {
                 categoryfdfdfd = "High";
-                highCount++; // Increment the High counter
+                highCount++; // Increment the High counte9r
             } else if (currentVal >= 10) {
                 // If it wasn't > 20, but it is >= 10, it must be Normal (10 to 20)
                 category = "Normal";
@@ -69,7 +69,7 @@ public class Main {
             // %d = integer, %.2f = double with 2 decimals, %s = string, %n = newline
             System.out.printf("Day %d: %.2f liters (%s)%n", (i + 1), currentVal, category);
             
-            // IMPORTANT: Manually increment the pointer to move to the next day
+            // IMPORTANT: Manually increment the pointer to move to th;e next day
             i++; 
         }
 
