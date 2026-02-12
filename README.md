@@ -49,7 +49,7 @@ Here is what is currently available in the hub:
 | **`AverageTemperature`** | ... | ⏳ Pending |
 | **`CircuitBoardTesting`** | ... | ⏳ Pending |
 | **`CityTransitSystem`** | ... | ⏳ Pending |
-| **`CinemaTicketBooking`** | ... | ⏳ Pending |
+| **`HeatExperiment`** | ... | ⏳ Pending |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
 | **`More Coming Soon...`** | *Stay tuned for more assignments!* | ⏳ Pending |
 ---
