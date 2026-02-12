@@ -48,8 +48,20 @@ public static void main(String[] args){
         }else if(userChoice == 0){
             failedAttempts++;
             System.out.println("No ride taken. Warinig: "+failedAttempts+"/3 failed attempts!");
+
+            if(failedAttempts == 3){
+                break;
+            }
         }
 
+    } 
+
+    System.out.println("Final Balance: "+cardBalance);
+
+    if(failedAttempts == 3){
+        System.out.println("Session timed out due to inactivity");
+    }else if(cardBalance < RIDE_COST){
+        System.out.println("Insufficient funds for another ride.");
     }
 }
 
