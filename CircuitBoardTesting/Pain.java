@@ -1,4 +1,6 @@
 package CircuitBoardTesting;
+
+import java.util.Scanner;
 public class Pain {
     /**QUESTION 5*
 A quality control engineer is testing circuit boards. Each board is subjected to a "Power Spike." After each spike, 
@@ -28,10 +30,11 @@ Write a program in Java to perform the following technical specifications:
 public static void main(String[] args){
     // System.out.println("");
 
-    // double boardHealth = 100.0;
-    // int spikeCount = 0;
-    // int userChoice = 1;
+    double boardHealth = 100.0;
+    int spikeCount = 0;
+    int userChoice = 1;
 
+    Scanner scanner = new Scanner(System.in);
 
     //Example of a do-while loop is below:
     // Scanner scanner = new Scanner(System.in);
@@ -43,6 +46,27 @@ public static void main(String[] args){
     //     } while (number < 1 || number > 10);
 
     //     System.out.println("Thank you! You entered: " + number);
+
+    do { 
+     
+     spikeCount++;   
+    System.out.println("Power Spike" + spikeCount+"---");
+    System.out.println("Enter damage caused by this spike:");
+    
+    double damage = scanner.nextDouble();
+    boardHealth -= damage;
+
+    System.out.println("Remaning Board Health: "+boardHealth);
+    if(boardHealth <= 0){
+        System.out.println("Test Terminated: Component Destroyed");
+        break;
+    }
+
+    System.out.println("Continue Testing? (1 for Yes, 0 for No):");
+    userChoice = scanner.nextInt();
+    } while (boardHealth >0 && userChoice == 1);
+    System.out.println("Total spikes survived: "+spikeCount);
+    scanner.close();
 }
 
 }
