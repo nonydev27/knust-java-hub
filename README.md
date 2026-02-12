@@ -45,7 +45,7 @@ Here is what is currently available in the hub:
 | **`ElectricityBillCalculator`** | ... | ⏳ Pending |
 | **`FuelConsumptionAnalysis`** | ... | ⏳ Pending |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
-| **`CinemaTicketBooking`** | ... | ⏳ Pending |
+| **`Atm`** | ... | ⏳ Pending |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
