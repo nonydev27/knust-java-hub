@@ -47,6 +47,10 @@ Here is what is currently available in the hub:
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
+| **`CinemaTicketBooking`** | ... | ⏳ Pending |
+| **`CinemaTicketBooking`** | ... | ⏳ Pending |
+| **`CinemaTicketBooking`** | ... | ⏳ Pending |
+| **`CinemaTicketBooking`** | ... | ⏳ Pending |
 | **`More Coming Soon...`** | *Stay tuned for more assignments!* | ⏳ Pending |
 ---
 
