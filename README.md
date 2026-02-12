@@ -48,7 +48,7 @@ Here is what is currently available in the hub:
 | **`Atm`** | ... | ⏳ Pending |
 | **`AverageTemperature`** | ... | ⏳ Pending |
 | **`CircuitBoardTesting`** | ... | ⏳ Pending |
-| **`CinemaTicketBooking`** | ... | ⏳ Pending |
+| **`CityTransitSystem`** | ... | ⏳ Pending |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
 | **`More Coming Soon...`** | *Stay tuned for more assignments!* | ⏳ Pending |
