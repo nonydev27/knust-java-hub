@@ -47,7 +47,7 @@ Here is what is currently available in the hub:
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
 | **`Atm`** | ... | ⏳ Pending |
 | **`AverageTemperature`** | ... | ⏳ Pending |
-| **`CinemaTicketBooking`** | ... | ⏳ Pending |
+| **`CircuitBoardTesting`** | ... | ⏳ Pending |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
