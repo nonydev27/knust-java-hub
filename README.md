@@ -48,7 +48,7 @@ Here is what is currently available in the hub:
 | **`Atm`** | ... | ⏳ Pending |
 | **`AverageTemperature`** | ... | ⏳ Pending |
 | **`CircuitBoardTesting`** | A quality control engineer is testing circuit boards. Each board is subjected to a "Power Spike." After each spike,the engineer hecks the board's health. The process repeats as long as the board is functional and the engineer chooses to continue | 🟢 Completed |
-| **`CityTransitSystem`** | ... | ⏳ Pending |
+| **`CityTransitSystem`** | A city transit system uses a prepaid card for bus rides. Each ride costs a flat fee, but the system also has a "Security Lockout" if  user attempts to use a card with a zero or negative balance too many times. | 🟢 Completed |
 | **`HeatExperiment`** | ... | ⏳ Pending |
 | **`MaterialTesting`** | ... | ⏳ Pending |
 | **`More Coming Soon...`** | *Stay tuned for more assignments!* | ⏳ Pending |
