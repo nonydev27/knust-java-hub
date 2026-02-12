@@ -1,5 +1,5 @@
 package CityTansitSystem;
-
+import java.util.Scanner;
 public class Pain {
     /**QUESTION 4*
 A city transit system uses a prepaid card for bus rides. Each ride costs a flat fee, 
@@ -30,9 +30,27 @@ but the system also has a "Security Lockout" if a user attempts to use a card wi
 • If it stopped because of failed attempts, print: "Session timed out due to inactivity.". */
 
 public static void main(String[] args){
+
     double cardBalance = 15.00;
     final double RIDE_COST = 2.50;
     int failedAttempts = 0;
+    int userChoice = 1;
+
+    Scanner scanner = new Scanner(System.in);
+
+    while(cardBalance >= RIDE_COST){
+        System.out.println("Do you want to take a ride?");
+        userChoice = scanner.nextInt();
+
+        if (userChoice == 1){
+        cardBalance -= RIDE_COST;
+          System.out.println("Ride Successful! Remaning Balance is: "+cardBalance);
+        }else if(userChoice == 0){
+            failedAttempts++;
+            System.out.println("No ride taken. Warinig: "+failedAttempts+"/3 failed attempts!");
+        }
+
+    }
 }
 
 }
