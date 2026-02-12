@@ -38,7 +38,7 @@ public static void main(String[] args){
         double friesPrice = 2.50;
 
         System.out.println("WELCOME TO NONY'S FAST FOOD!");
-        System.out.println("======= WE ARE OPEN ========");
+        System.out.println("======= WE ARE OPEN =======");
 
         String choice;
         boolean checkout = false;
