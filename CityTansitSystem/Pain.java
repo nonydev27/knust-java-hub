@@ -2,7 +2,9 @@ package CityTansitSystem;
 
 public class Pain {
     /**QUESTION 4*
-A city transit system uses a prepaid card for bus rides. Each ride costs a flat fee, but the system also has a "Security Lockout" if a user attempts to use a card with a zero or negative balance too many times. You are required to write a program in Java that performs the following constraints:
+A city transit system uses a prepaid card for bus rides. Each ride costs a flat fee, 
+but the system also has a "Security Lockout" if a user attempts to use a card with a zero or negative balance too many times.
+ You are required to write a program in Java that performs the following constraints:
 
 1. *Variables:*
 • Initialize double cardBalance = 15.00.
@@ -26,4 +28,11 @@ A city transit system uses a prepaid card for bus rides. Each ride costs a flat 
 • After the loop, print the final balance.
 • Specific Logic: If the loop stopped because the balance was too low, print: "Insufficient funds for another ride.".
 • If it stopped because of failed attempts, print: "Session timed out due to inactivity.". */
+
+public static void main(String[] args){
+    double cardBalance = 15.00;
+    final double RIDE_COST = 2.50;
+    int failedAttempts = 0;
+}
+
 }
