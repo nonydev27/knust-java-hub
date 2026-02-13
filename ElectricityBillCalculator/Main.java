@@ -28,6 +28,7 @@ public static void main(String[] args) {
         double COST_PER_KWH = 0.20;
         int numberOfAppliances;
         double baseCost;
+        double surcharge = 0.15;
 
         System.out.println();
         System.out.println("Enter the total number of appliances used: ");
