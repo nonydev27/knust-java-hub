@@ -34,5 +34,11 @@ public static void main(String[] args) {
         System.out.println("Enter the total number of appliances used: ");
         numberOfAppliances = scanner.nextInt();
 
+     
+
+        for(int i=0; i<numberOfAppliances; i++;){
+            System.out.println("hello");
+        }
+        
 }}
 
