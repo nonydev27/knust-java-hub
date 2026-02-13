@@ -36,7 +36,7 @@ public static void main(String[] args) {
 
      
 
-        for(int i=0; i<numberOfAppliances; i++;){
+        for(int i=0; i<numberOfAppliances; i++){
             System.out.println("hello");
         }
         
