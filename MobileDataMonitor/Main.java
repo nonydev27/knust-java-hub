@@ -2,7 +2,8 @@ package MobileDataMonitor;
 
 public class Main {
     /*QUESTION 4
-Telecel, a well known mobile service provider needs a script to monitor a user's data consumption in real-time. You are required to write a Java program named MobileDataMonitor that simulates a declining data balance.
+Telecel, a well known mobile service provider needs a script to monitor a user's data consumption in real-time. 
+You are required to write a Java program named MobileDataMonitor that simulates a declining data balance.
 
 1. Initial State:
 * Start the user with an initial balance of 20.0 GB.
@@ -25,4 +26,7 @@ Implement the following notification system based on the remaining balance:
 
 5. Final Summary:
 * Once the loop terminates, display the total data used and the final balance (formatted to 2 decimal places). */
+
+
 }
+

@@ -45,7 +45,7 @@ public static void main(String[] args){
         if (userChoice == 1){
         cardBalance -= RIDE_COST;
           System.out.println("Ride Successful! Remaning Balance is: "+cardBalance);
-        }else if(userChoice == 0){
+        }else{
             failedAttempts++;
             System.out.println("No ride taken. Warinig: "+failedAttempts+"/3 failed attempts!");
 

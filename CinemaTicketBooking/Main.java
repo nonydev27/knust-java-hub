@@ -1,6 +1,7 @@
 public class Main{
     public static void main(String[] args) {
-        /*A local cinema requires a kiosk application to handle ticket sales. You are tasked with writing a Java program named CinemaTicketBooking that allows users to select multiple ticket types and provides a final summary.
+        /*A local cinema requires a kiosk application to handle ticket sales. 
+        You are tasked with writing a Java program named CinemaTicketBooking that allows users to select multiple ticket types and provides a final summary.
 
 1. Looping Structure:
 * Use a do-while loop to display a menu of options to the user repeatedly.
@@ -26,4 +27,3 @@ After the user finishes booking (exits the loop), display a summary based on the
 5. Output Formatting:
 * Print the total ticket count and the total cost (formatted to 2 decimal places). */
     }}
-}
