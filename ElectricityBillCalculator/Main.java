@@ -28,6 +28,7 @@ public static void main(String[] args) {
         double COST_PER_KWH = 0.20;
         int numberOfAppliances;
         double baseCost;
+        double kwhConsumption;
         double surcharge = 0.15;
 
         System.out.println();
@@ -37,7 +38,9 @@ public static void main(String[] args) {
      
 
         for(int i=0; i<numberOfAppliances; i++){
-            System.out.println("hello");
+            // if(i == 0) continue;
+            System.out.println("Enter the consumption(kwh) for device "+i);
+            kwhConsumption = scanner.nextDouble();
         }
         
 }}
