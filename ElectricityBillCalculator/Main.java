@@ -24,5 +24,9 @@ public static void main(String[] args) {
     
         Scanner scanner = new Scanner(System.in);
         System.out.println("===== ELECTRICITY BILL CALCULATOR =====");
+
+        double COST_PER_KWH = 0.20;
+        int numberOfAppliances = 0;
+
 }}
 
