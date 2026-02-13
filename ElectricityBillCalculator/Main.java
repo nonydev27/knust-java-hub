@@ -1,8 +1,10 @@
 package ElectricityBillCalculator;
 
+import java.util.Scanner;
 public class Main {
     /*
-A local utility company requires a Java program to help residents estimate their electricity bills based on individual appliance usage. You are tasked with developing the ElectricityBillCalculator class.
+A local utility company requires a Java program to help residents estimate their electricity bills based on individual appliance usage. 
+You are tasked with developing the ElectricityBillCalculator class.
 
 1. Constants & Inputs:
 * Define a constant COST_PER_KWH with a value of 0.20.
@@ -17,4 +19,10 @@ A local utility company requires a Java program to help residents estimate their
 * For every appliance, print a detailed line showing the appliance number, the kWh used, and the final cost (clearly flagging if a surcharge was applied).
 * Maintain a running total for both Total Consumption and Total Cost.
 * Display the final totals after the loop finishes, formatted to 2 decimal places. */
-}
+
+public static void main(String[] args) {
+    
+        Scanner scanner = new Scanner(System.in);
+
+}}
+
