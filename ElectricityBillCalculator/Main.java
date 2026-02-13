@@ -39,7 +39,7 @@ public static void main(String[] args) {
 
         for(int i=0; i<numberOfAppliances; i++){
             // if(i == 0) continue;
-            System.out.println("Enter the consumption(kwh) for device "+i);
+            System.out.println("Enter the consumption(kwh) for device "+(i+1)+"/"+numberOfAppliances);
             kwhConsumption = scanner.nextDouble();
         }
         
