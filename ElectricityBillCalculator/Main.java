@@ -23,6 +23,6 @@ You are tasked with developing the ElectricityBillCalculator class.
 public static void main(String[] args) {
     
         Scanner scanner = new Scanner(System.in);
-
+        System.out.println("===== ELECTRICITY BILL CALCULATOR =====");
 }}
 
