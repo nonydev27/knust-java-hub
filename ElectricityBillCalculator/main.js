@@ -19,7 +19,7 @@ var longestBalanced = function(s) {
     }
 
     // --- Case 2: Two Distinct Characters (Prefix Differences) ---
-    // Hint: Substring balanced if counts of two distinct chars are equal.
+    // Hint: Substring balanced if csounts of two distinct chars are equal.
     const pairs = [['a', 'b'], ['b', 'c'], ['a', 'c']];
     for (const [char1, char2] of pairs) {
         let diffMap = new Map();
