@@ -38,7 +38,7 @@ public static void main(String[] args){
             if(temperature[i] <= 10.0){
                 System.out.println("This temperature is valid");
 
-                temperature[i] =+ sum;
+                temperature[i] += sum;
                 validSensorCount += 1;
             }
 
@@ -48,7 +48,7 @@ public static void main(String[] args){
             }
         }
 
-        
+
 }
 
 }
