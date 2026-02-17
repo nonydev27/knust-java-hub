@@ -2,7 +2,8 @@ package AverageTemperature;
 
 public class Pain {
     /**QUESTION 2*
-A refrigerated warehouse has 8 sensors. Write a program in Java to calculate the average temperature, ignore any sensor reading that is above 10°C, as those are considered "Sensor Errors."
+A refrigerated warehouse has 8 sensors. Write a program in Java to calculate the average temperature, 
+ignore any sensor reading that is above 10°C, as those are considered "Sensor Errors."
 
 1. *Setup:*
 • Create an array of 8 temperatures: {2.5, 3.0, 15.0, 4.2, -1.0, 22.0, 3.8, 5.0}.
@@ -25,5 +26,14 @@ A refrigerated warehouse has 8 sensors. Write a program in Java to calculate the
 • Print the Total Valid Sensors Found.
 
 • Print the Final Average Temperature. */
+
+public static void main(String[] args){
+        double sum = 0.0;
+        // double[] temperature = new double[9];
+        double[] temperature = {2.5, 3.0, 15.0, 4.2, -1.0, 22.0, 3.8, 5.0};
+        int validSensorCount = 0;
+        System.out.println("==========================================================");
+
+}
 
 }
