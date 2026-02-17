@@ -34,6 +34,21 @@ public static void main(String[] args){
         int validSensorCount = 0;
         System.out.println("==========================================================");
 
+        for(int i =0; i<temperature.length; i++){
+            if(temperature[i] <= 10.0){
+                System.out.println("This temperature is valid");
+
+                temperature[i] =+ sum;
+                validSensorCount += 1;
+            }
+
+            if(temperature[i] >10.00){
+                System.out.println("This temperature is invalid");
+                System.out.println("Sensor"+i+temperature+"C - ERROR: Reading Ignored");
+            }
+        }
+
+        
 }
 
 }
