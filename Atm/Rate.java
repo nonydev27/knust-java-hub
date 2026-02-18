@@ -32,6 +32,7 @@ public class Rate {
                     count5++;
                     break;
                 default:
+                    
                     throw new AssertionError();
             }
         }
