@@ -46,7 +46,7 @@ public class Main {
             String category; // Variable to store the text label for the category
             
             if (currentVal > 20) {
-                categoryfdfdfd = "High";
+                category = "High";
                 highCount++; // Increment the High counte9r
             } else if (currentVal >= 10) {
                 // If it wasn't > 20, but it is >= 10, it must be Normal (10 to 20)
