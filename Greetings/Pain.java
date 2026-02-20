@@ -1,4 +1,4 @@
-s
+
 import java.util.Scanner;
 
 public class Pain {
@@ -16,4 +16,4 @@ public class Pain {
         System.out.println("Good day "+name);
         scanner.close();
     }}
-}
+
