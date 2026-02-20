@@ -1,5 +1,3 @@
-package Atm;
-
 public class Main {
     /**QUESTION 6*
 Write a program in Java to build simplified ATM interface that allows a user to perform multiple transactions in one session.
