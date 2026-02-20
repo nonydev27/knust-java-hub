@@ -41,7 +41,7 @@ public static void main(String[] args) {
             System.out.println("Enter the consumption(kwh) for device "+(i+1)+"/"+numberOfAppliances);
             kwhConsumption = scanner.nextDouble();
 
-            if()
+            // if()
         }
         
 }}

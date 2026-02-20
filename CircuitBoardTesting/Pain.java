@@ -1,8 +1,6 @@
 package CircuitBoardTesting;
-
-import java.util.Scanner;
 public class Pain {
-  public static main void(String[] args){
+  public static void main(String[] args){
 for(int i=0; i<100; i++){
         if(i%2 ==0){
             if(i==0) continue;
