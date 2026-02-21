@@ -1,5 +1,5 @@
 
-public class Hello {
+public class Midsem {
  
   public static void main(String[] args){
 
