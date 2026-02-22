@@ -1,7 +1,7 @@
 
 public class Midsem {
  
-  public static void main(Stringh[] args){
+  public static void main(String[] args){
 
     //even
     // for(int i=0; i<100; i++){
