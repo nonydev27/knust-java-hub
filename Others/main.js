@@ -64,3 +64,4 @@ var longestBalanced = function(s) {
 console.log("Test 1 (abcabc):", longestBalanced("abcabc")); //  6
 console.log("Test 2 (aaaaa):", longestBalanced("aaaaa"));   // 5
 console.log("Test 3 (aabbcc):", longestBalanced("aabbcc")); //  6
+// end here!
