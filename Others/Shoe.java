@@ -11,5 +11,6 @@ public class Shoe {
         char[] engAlphabet = new char[26];
 
         //2D ARRAY
+        //sd
     }
 }
