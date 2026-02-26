@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package LABEx;
 
+import java.util.Scanner;
 public class SalaryCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);

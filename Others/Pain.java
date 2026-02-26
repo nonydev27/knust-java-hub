@@ -9,8 +9,9 @@ public class Pain {
 
         int[] arr = {6,2,3,1,5,4};
 
+
         for(int i =0; i<arr.length; i++){  
-                System.out.print(arr[i]);  
+          
             int temp = 0;
                 for(int j = i+1; j<arr.length;j++){
                     if(arr[j] < arr[i]){
@@ -19,8 +20,6 @@ public class Pain {
                         arr[j] = temp;
                     }
                 }
-
-                
 
         }
         System.out.println("\nsorted array is given as: ");
