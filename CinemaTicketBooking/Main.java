@@ -28,6 +28,7 @@ After the user finishes booking (exits the loop), display a summary based on the
 * Print the total ticket count and the total cost (formatted to 2 decimal places). */
 
         System.out.println("WELCOME TO THE CINEMA");
+        System.out.println("=====================");
 
     }
 }
