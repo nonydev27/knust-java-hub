@@ -30,5 +30,8 @@ After the user finishes booking (exits the loop), display a summary based on the
         System.out.println("WELCOME TO THE CINEMA");
         System.out.println("=====================");
 
+        double regular = 25.00;
+        double student = 15.00;
+
     }
 }
