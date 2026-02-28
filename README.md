@@ -41,10 +41,9 @@ Here is what is currently available in the hub:
 | **`AverageStandardDFact`** | A utility to calculate Mean, Standard Deviation, and Factorials using Java loops and math logic. | 🟢 Completed |
 | **`VotingSystem`** | A system which takes input of a user and checks if he or she is eligble to vote using if statements. | 🟢 Completed |
 | **`CheckDayStatus`** | This program is to check the present day and then render an output using switches | 🟢 Completed |
-| **`CinemaTicketBooking`** | ... | ⏳ Pending |
+| **`CinemaTicketBooking`** | ... | 🟢 Completed |
 | **`ElectricityBillCalculator`** | ... | ⏳ Pending |
 | **`FuelConsumptionAnalysis`** | ... | ⏳ Pending |
-| **`CinemaTicketBooking`** | ... | 🟢 Completed |
 | **`Atm`** | ... | ⏳ Pending |
 | **`AverageTemperature`** | ... | ⏳ Pending |
 | **`CircuitBoardTesting`** | A quality control engineer is testing circuit boards. Each board is subjected to a "Power Spike." After each spike,the engineer hecks the board's health. The process repeats as long as the board is functional and the engineer chooses to continue | 🟢 Completed |
