@@ -34,11 +34,15 @@ After the user finishes booking (exits the loop), display a summary based on the
         double regular = 25.00;
         double student = 15.00;
         double vip = 50.00;
-
+        double amount = 0.00;
         
         int choice;
 
         Scanner input = new Scanner(System.in);
+       
+        
+        do {
+
         System.out.println("Please make a selection");
         System.out.println();
 
@@ -47,10 +51,29 @@ After the user finishes booking (exits the loop), display a summary based on the
         System.out.println("3. (VIP): GHC 50.00");
         System.out.println("4. Finish booking");
 
+        choice = input.nextInt();
 
+        switch(choice){
+            case 1: System.out.println("You have chosen Regular!");
+            amount += regular;
+            break;
 
-        
+            case 2: System.out.println("You have chosen Student!");
+            amount += student;
+            break;
 
+            case 3: System.out.println("You have chosen VIP!");
+            amount += vip;
+            break;
+
+            case 4: System.out.println("Done booking");
+            break;
+            
+            default: System.out.println("Invalid option!");
+
+        }
+
+        } while (choice !=4);
 
     }
 }
