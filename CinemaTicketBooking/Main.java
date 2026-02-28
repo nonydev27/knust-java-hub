@@ -68,12 +68,17 @@ After the user finishes booking (exits the loop), display a summary based on the
 
             case 4: System.out.println("Done booking");
             break;
-            
+
             default: System.out.println("Invalid option!");
 
         }
 
         } while (choice !=4);
+
+
+        if(amount == 0){
+            System.out.println("No tickets booked!");
+        }
 
     }
 }
