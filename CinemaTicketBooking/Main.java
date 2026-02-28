@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class Main{
     public static void main(String[] args) {
         /*A local cinema requires a kiosk application to handle ticket sales. 
@@ -32,6 +33,24 @@ After the user finishes booking (exits the loop), display a summary based on the
 
         double regular = 25.00;
         double student = 15.00;
+        double vip = 50.00;
+
+        
+        int choice;
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please make a selection");
+        System.out.println();
+
+        System.out.println("1. (Regular): GHC 25.00");
+        System.out.println("2. (Student): GHC 15.00");
+        System.out.println("3. (VIP): GHC 50.00");
+        System.out.println("4. Finish booking");
+
+
+
+        
+
 
     }
 }
