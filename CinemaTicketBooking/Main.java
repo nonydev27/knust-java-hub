@@ -35,6 +35,7 @@ After the user finishes booking (exits the loop), display a summary based on the
         double student = 15.00;
         double vip = 50.00;
         double amount = 0.00;
+        int ticketBooked = 0;
         
         int choice;
 
@@ -56,17 +57,21 @@ After the user finishes booking (exits the loop), display a summary based on the
         switch(choice){
             case 1: System.out.println("You have chosen Regular!");
             amount += regular;
+            ticketBooked++;
             break;
 
             case 2: System.out.println("You have chosen Student!");
             amount += student;
+            ticketBooked++;
             break;
 
             case 3: System.out.println("You have chosen VIP!");
             amount += vip;
+            ticketBooked++;
             break;
 
             case 4: System.out.println("Done booking");
+            ticketBooked++;
             break;
 
             default: System.out.println("Invalid option!");
@@ -76,9 +81,15 @@ After the user finishes booking (exits the loop), display a summary based on the
         } while (choice !=4);
 
 
-        if(amount == 0){
+        if(ticketBooked == 0){
             System.out.println("No tickets booked!");
+        }else if(ticketBooked >=1 && ticketBooked <= 3){
+            System.out.println("Standard booking");
+        }else if(ticketBooked >= 3){
+            System.out.println("Group booking");
         }
 
+
+        input.close();
     }
 }
