@@ -52,6 +52,7 @@ After the user finishes booking (exits the loop), display a summary based on the
         System.out.println("3. (VIP): GHC 50.00");
         System.out.println("4. Finish booking");
 
+        System.out.print("Please enter your choice: ");
         choice = input.nextInt();
 
         switch(choice){
@@ -71,7 +72,6 @@ After the user finishes booking (exits the loop), display a summary based on the
             break;
 
             case 4: System.out.println("Done booking");
-            ticketBooked++;
             break;
 
             default: System.out.println("Invalid option!");
@@ -89,7 +89,12 @@ After the user finishes booking (exits the loop), display a summary based on the
             System.out.println("Group booking");
         }
 
+        System.out.println();
+        System.out.println("=======================");  
 
+
+        System.out.println("Total ticket count: "+ticketBooked);
+        System.out.println("Total cost: "+amount);
         input.close();
     }
 }

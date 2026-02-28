@@ -44,7 +44,7 @@ Here is what is currently available in the hub:
 | **`CinemaTicketBooking`** | ... | ⏳ Pending |
 | **`ElectricityBillCalculator`** | ... | ⏳ Pending |
 | **`FuelConsumptionAnalysis`** | ... | ⏳ Pending |
-| **`CinemaTicketBooking`** | ... | ⏳ Pending |
+| **`CinemaTicketBooking`** | ... | 🟢 Completed |
 | **`Atm`** | ... | ⏳ Pending |
 | **`AverageTemperature`** | ... | ⏳ Pending |
 | **`CircuitBoardTesting`** | A quality control engineer is testing circuit boards. Each board is subjected to a "Power Spike." After each spike,the engineer hecks the board's health. The process repeats as long as the board is functional and the engineer chooses to continue | 🟢 Completed |
