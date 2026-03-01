@@ -92,6 +92,7 @@ After the user finishes booking (exits the loop), display a summary based on the
         System.out.println();
         System.out.println("=======================");  
 
+        System.out.println();
 
         System.out.println("Total ticket count: "+ticketBooked);
         System.out.println("Total cost: "+amount);
