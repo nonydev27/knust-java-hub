@@ -1,8 +1,10 @@
 package MaterialTesting;
 
+import java.util.Scanner;
 public class Pain {
     /**QUESTION 3*
-An engineering firm is testing the durability of a new building material. They apply pressure in cycles until the material reaches its "Failure Point." Write a program in Java that performs the following tasks:
+An engineering firm is testing the durability of a new building material. They apply pressure in cycles until the material reaches its "Failure Point." 
+Write a program in Java that performs the following tasks:
 
 1. *Variables:*
 • double structuralIntegrity = 100.0 (Starting health of the material).
@@ -22,4 +24,31 @@ An engineering firm is testing the durability of a new building material. They a
 • After each cycle, print the remaining integrity.
 • Once the loop ends, print: "Material Failure at Cycle [cycleCount]!".
 • Print the Final Integrity Level. */
+
+public static void main(String[] args){
+    double structuralIntegrity = 100.0;
+    int cycleCount = 0;
+    final double FAILURE_THRESHOLD = 15.0;
+    double pressureForce = 0.00;
+
+    Scanner input = new Scanner(System.in);
+    
+    while (structuralIntegrity > FAILURE_THRESHOLD) {
+        System.out.println("Enter pressure force for Cycle "+cycleCount+1);
+        pressureForce = input.nextDouble();
+        structuralIntegrity--;
+    }
+
+    if(pressureForce > 20.0){
+        structuralIntegrity = structuralIntegrity - 5;
+    }
+
+    System.out.println();
+    System.out.println("Remaining Integrity: "+structuralIntegrity);
+    System.out.println("Material Failure at Cycle "+cycleCount);
+
+
+
+}
+
 }

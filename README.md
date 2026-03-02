@@ -42,6 +42,7 @@ Here is what is currently available in the hub:
 | **`VotingSystem`** | A system which takes input of a user and checks if he or she is eligble to vote using if statements. | 🟢 Completed |
 | **`CheckDayStatus`** | This program is to check the present day and then render an output using switches | 🟢 Completed |
 | **`CinemaTicketBooking`** | this system allows users to select multiple ticket types and provides a final summary | 🟢 Completed |
+| **`KioskSystem`** | ... | ⏳ Pending |
 | **`ElectricityBillCalculator`** | ... | ⏳ Pending |
 | **`FuelConsumptionAnalysis`** | ... | ⏳ Pending |
 | **`Atm`** | ... | ⏳ Pending |
