@@ -28,7 +28,9 @@ Implement the following notification system based on the remaining balance:
 * Once the loop terminates, display the total data used and the final balance (formatted to 2 decimal places). */
 
 public static void main(String[] args){
-    System.out.println();
+    
+    double init_balance = 20.00;
+    
 }
 
 }
