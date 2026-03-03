@@ -37,9 +37,11 @@ public static void main(String[] args){
     Scanner input = new Scanner(System.in);
     while (data_balance > 0) {
         System.out.println("Data to be used in current session: ");
+        data_balance = input.nextDouble();
 
         tracker++;
     }
+    
 }
 
 }
