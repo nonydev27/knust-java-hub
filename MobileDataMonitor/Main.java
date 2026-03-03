@@ -30,7 +30,8 @@ Implement the following notification system based on the remaining balance:
 public static void main(String[] args){
     
     double init_balance = 20.00;
-    
+    int tracker = 0;
+
 }
 
 }
