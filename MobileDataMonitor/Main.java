@@ -1,4 +1,5 @@
 package MobileDataMonitor;
+import java.util.Scanner;
 
 public class Main {
     /*QUESTION 4
@@ -29,9 +30,16 @@ Implement the following notification system based on the remaining balance:
 
 public static void main(String[] args){
     
-    double init_balance = 20.00;
     int tracker = 0;
+    double init_balance = 20.00;
+    double data_balance = 0.00;
 
+    Scanner input = new Scanner(System.in);
+    while (data_balance > 0) {
+        System.out.println("Data to be used in current session: ");
+
+        tracker++;
+    }
 }
 
 }
