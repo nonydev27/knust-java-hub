@@ -8,6 +8,7 @@ public class EmployessPay {
         double netpay = 0.00;
         double average_netpay = 0.00;
         double total_netpay = 0.00;
+        double salary = 0.00;
 
         String name = "";
         int hours = 0;
@@ -28,9 +29,12 @@ public class EmployessPay {
 
         stream = input.nextInt();
         
-        if(hours>40 && stream==1){
-        System.out.println("Please choose your stream: ");
+        if(hours<40 && stream==1){
             
+            salary += salary;
+
+        }else if(hours<40 && stream==2){
+            salary += 50*hours;
         }
         
     }
