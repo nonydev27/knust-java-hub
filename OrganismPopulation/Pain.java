@@ -7,23 +7,23 @@ public class Pain {
      with two organisms, have an average daily increase of 50 percent, and will be allowed to multiply for seven days. The program should use a loop 
      to display the size of the population for each day.
 
-Input Validation: Do not accept a number less than 2 for the starting size of the population. 
-Do not accept a negative number for average daily population increase. Do not accept a number less than 1 for the number of days they will multiply. */
+    Input Validation: Do not accept a number less than 2 for the starting size of the population. 
+    Do not accept a negative number for average daily population increase. Do not accept a number less than 1 for the number of days they will multiply. */
 
 public static void main(String[] args){
     
-    Scanner scanner = new Scanner(System.in);
+    // Scanner scanner = new Scanner(System.in);
 
-    System.out.println("ORGANISMS POPULATION SIZE PREDICTION");
-    System.out.println("=====================================");
+    // System.out.println("ORGANISMS POPULATION SIZE PREDICTION");
+    // System.out.println("=====================================");
 
-    int starting_number;
-    double avg_dailypopulation;
-    int repro_days;
+    // int starting_number;
+    // double avg_dailypopulation;
+    // int repro_days;
 
-    while (condition) {
-        
-    }
+    
+    
+    
 }
  
 }
