@@ -6,4 +6,8 @@ public class Pain {
 F=59​C+32
 where F is the Fahrenheit temperature and C is the Celsius temperature. Your program must use a loop to display
  the table. */
+
+ public static void main(String[] args){
+    
+ }
 }
