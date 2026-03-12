@@ -8,6 +8,6 @@ where F is the Fahrenheit temperature and C is the Celsius temperature. Your pro
  the table. */
 
  public static void main(String[] args){
-    
+    System.out.println();
  }
 }
