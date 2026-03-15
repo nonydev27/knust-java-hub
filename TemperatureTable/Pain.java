@@ -9,5 +9,6 @@ where F is the Fahrenheit temperature and C is the Celsius temperature. Your pro
 
  public static void main(String[] args){
     System.out.println();
+    system.out.println("Celsius\tFahrenheit");
  }
 }
