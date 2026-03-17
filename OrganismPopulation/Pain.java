@@ -30,7 +30,7 @@ public static void main(String[] args){
     System.out.println("Enter the number of days they will multiply: ");
     repro_days = scanner.nextInt();
 
-    System.out.println("Day Approximate\t\tPopulation");
+    // System.out.println("Day Approximate\t\tPopulation");
 
     
     
