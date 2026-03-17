@@ -45,6 +45,46 @@ This program simulates a 10-round match between a computer and a user.
     System.out.println("Let's begin");
     System.out.println("-----------------------------------------");
 
+    int user1Score = 0;
+    int user2Score = 0;
+
+
+        for(int i=0; i<10; i++){
+
+            int user1Dice = (int)(Math.random() * 6) + 1;
+            int user2Dice = (int)(Math.random() * 6) + 1;
+
+            if(user1Dice > user2Dice){
+                user1Score++;
+            }else if(user2Dice > user1Dice){
+                user2Score++;
+            }else{
+                System.out.println("It's a tie");
+            }
+
+            System.out.println("Round " + (i+1) + " results: ");
+            System.out.println(user1 + " rolled a " + user1Dice);
+            System.out.println(user2 + " rolled a " + user2Dice);
+            System.out.println("-----------------------------------------");
+            System.out.println("Current score: ");
+            System.out.println(user1 + ": " + user1Score);
+            System.out.println(user2 + ": " + user2Score);
+            System.out.println("-----------------------------------------");
+
+        }
+
+        if(user1Score > user2Score){
+            System.out.println(user1 + " wins the game with a score of " + user1Score);
+        }else if(user2Score > user1Score){
+            System.out.println(user2 + " wins");
+
+
+        }else{
+            System.out.println("It's a tie");
+        }
+        }
+
+        
 
     
 }

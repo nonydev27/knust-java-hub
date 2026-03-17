@@ -52,6 +52,7 @@ Here is what is currently available in the hub:
 | **`HeatExperiment`** | A science lab is running a series of heat experiments. You need to write a program that calculates the average temperature of each experiment and flags any that are "Unstable" | 🟢 Completed |
 | **`MaterialTesting_Q3`** | An engineering firm is testing the durability of a new building material. They apply pressure in cycles until the material reaches its "Failure Point." | 🟢 Completed |
 | **`WarehouseAnalysis`** | A logistics company needs a tool to analyze the weight distribution of boxes in a warehouse shipment. You are required to write a Java program named WarehouseAnalysis that processes a fixed set of inventory data. | 🟢 Completed |
+| **`DiceGame`** | A dice game where two players roll a dice and the player with the highest score wins. | 🟢 Completed |
 | **`More Coming Soon...`** | *Stay tuned for more assignments!* | ⏳ Pending |
 ---
 
