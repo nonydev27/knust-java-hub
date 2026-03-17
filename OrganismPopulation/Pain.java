@@ -21,6 +21,17 @@ public static void main(String[] args){
     double avg_dailypopulation;
     int repro_days;
 
+    System.out.println("Enter the starting number of organisms: ");
+    starting_number = scanner.nextInt();
+
+    System.out.println("Enter the average daily population increase: ");
+    avg_dailypopulation = scanner.nextDouble();
+
+    System.out.println("Enter the number of days they will multiply: ");
+    repro_days = scanner.nextInt();
+
+    // System.out.println("Day Approximate\t\tPopulation");
+
     
     
     
