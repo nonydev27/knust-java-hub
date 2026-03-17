@@ -12,15 +12,14 @@ public class Pain {
 
 public static void main(String[] args){
     
-    // Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);
 
-    // System.out.println("ORGANISMS POPULATION SIZE PREDICTION");
-    // System.out.println("=====================================");
+    System.out.println("ORGANISMS POPULATION SIZE PREDICTION");
+    System.out.println("=====================================");
 
-    // int starting_number;
-    // double avg_dailypopulation;
-    // int repro_days;
-    //also there will be more
+    int starting_number;
+    double avg_dailypopulation;
+    int repro_days;
 
     
     
