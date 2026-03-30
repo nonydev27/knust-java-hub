@@ -1,3 +1,5 @@
+import java.util.*;
+
 package SocialScience;
 
 public class Main {
@@ -24,5 +26,5 @@ public class Main {
 Note for calculation: Since the lecturer marked both over 100, you will need to apply the formula:
 Final Mark=(Midsem×0.3)+(Exams×0.7) */
 
-
+    }
 }
