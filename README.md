@@ -38,21 +38,36 @@ Here is what is currently available in the hub:
 | Folder Name | Description | Status |
 | :--- | :--- | :--- |
 | **`GradingSystem`** | A KNUST-compliant grading system that handles Assessment, Exams, Condonement logic, and Fee validation. | 🟢 Completed |
-| **`AverageStandardDFact`** | A utility to calculate Mean, Standard Deviation, and Factorials using Java loops and math logic. | 🟢 Completed |
+| **`AverageStandardDFact`** | A utility to calculate Mean, Standard Deviation, and Factorials using Java loops and math logic. | 🔴 Incomplete |
 | **`VotingSystem`** | A system which takes input of a user and checks if he or she is eligble to vote using if statements. | 🟢 Completed |
 | **`CheckDayStatus`** | This program is to check the present day and then render an output using switches | 🟢 Completed |
-| **`CinemaTicketBooking`** | this system allows users to select multiple ticket types and provides a final summary | 🟢 Completed |
-| **`KioskSystem`** | ... | ⏳ Pending |
-| **`ElectricityBillCalculator`** | A local utility company requires a Java program to help residents estimate their electricity bills based on individual appliance usage. You are tasked with developing the ElectricityBillCalculator class. | 🟢 Completed |
-| **`FuelConsumptionAnalysis`** | A logistics company tracks the daily fuel consumption of a single vehicle over a one-week period. You are required to write a Java program named FuelConsumptionAnalysis to process this data. | 🟢 Completed |
-| **`Atm`** | A simplified ATM simulation system that allows a user to perform multiple transactions in one session| 🟢 Completed |
-| **`AverageTemperature/RefrigeratorWarehouse`** | A refrigerated warehouse has 8 sensors. Write a program in Java to calculate the average temperature, ignore any sensor reading that is above 10°C, as those are considered "Sensor Errors." | 🟢 Completed |
-| **`CircuitBoardTesting`** | A quality control engineer is testing circuit boards. Each board is subjected to a "Power Spike." After each spike,the engineer hecks the board's health. The process repeats as long as the board is functional and the engineer chooses to continue | 🟢 Completed |
-| **`CityTransitSystem`** | A city transit system uses a prepaid card for bus rides. Each ride costs a flat fee, but the system also has a "Security Lockout" if  user attempts to use a card with a zero or negative balance too many times. | 🟢 Completed |
-| **`HeatExperiment`** | A science lab is running a series of heat experiments. You need to write a program that calculates the average temperature of each experiment and flags any that are "Unstable" | 🟢 Completed |
-| **`MaterialTesting_Q3`** | An engineering firm is testing the durability of a new building material. They apply pressure in cycles until the material reaches its "Failure Point." | 🟢 Completed |
-| **`WarehouseAnalysis`** | A logistics company needs a tool to analyze the weight distribution of boxes in a warehouse shipment. You are required to write a Java program named WarehouseAnalysis that processes a fixed set of inventory data. | 🟢 Completed |
+| **`CinemaTicketBooking`** | This system allows users to select multiple ticket types and provides a final summary | 🟢 Completed |
+| **`KioskSystem`** | A kiosk system for managing customer orders and transactions | 🟢 Completed |
+| **`ElectricityBillCalculator`** | A local utility company requires a Java program to help residents estimate their electricity bills based on individual appliance usage. | 🟢 Completed |
+| **`FuelConsumptionAnalysis`** | A logistics company tracks the daily fuel consumption of a single vehicle over a one-week period. | 🟢 Completed |
+| **`Atm`** | A simplified ATM simulation system that allows a user to perform multiple transactions in one session | 🟢 Completed |
+| **`AverageTemperature`** | A refrigerated warehouse has 8 sensors. Calculate the average temperature, ignoring sensor readings above 10°C. | 🟢 Completed |
+| **`CircuitBoardTesting`** | A quality control engineer is testing circuit boards subjected to power spikes. | 🟢 Completed |
+| **`CityTansitSystem`** | A city transit system uses a prepaid card for bus rides with security lockout features. | 🟢 Completed |
+| **`HeatExperiment`** | A science lab program that calculates the average temperature of experiments and flags unstable ones. | 🟢 Completed |
+| **`MaterialTesting`** | An engineering firm testing the durability of building materials under pressure cycles. | 🟢 Completed |
+| **`WarehouseAnalysis`** | A logistics tool to analyze the weight distribution of boxes in a warehouse shipment. | 🟢 Completed |
 | **`DiceGame`** | A dice game where two players roll a dice and the player with the highest score wins. | 🟢 Completed |
+| **`AverageRainfall`** | Calculate average rainfall over a period of time. | 🟢 Completed |
+| **`GradingReport`** | Generate grading reports for students. | 🟢 Completed |
+| **`Greetings`** | A simple greeting program that takes user input. | 🟢 Completed |
+| **`LABEx`** | Laboratory exercises including SalaryCalculator and ShopSalesTracker. | 🟢 Completed |
+| **`Midsem`** | Mid-semester exam practice problems (EmployessPay, StudentGrade). | 🔴 Incomplete |
+| **`MobileDataMonitor`** | Monitor mobile data usage and provide alerts. | 🟢 Completed |
+| **`NumberComparison`** | Compare numbers and find the largest/smallest values. | 🟢 Completed |
+| **`OrganismPopulation`** | Predict the size of a population of organisms over time. | 🟢 Completed |
+| **`ShoppingCart`** | Shopping cart system with price calculations and discounts. | 🟢 Completed |
+| **`SlotMachine`** | A simple slot machine game simulation. | 🟢 Completed |
+| **`StudentRatings`** | Process student ratings and generate statistics. | 🟢 Completed |
+| **`TemperatureTable`** | Display a table of Celsius temperatures. | 🟢 Completed |
+| **`TwoDArray`** | Examples and exercises working with 2D arrays. | 🟢 Completed |
+| **`phel_java`** | Collection of past questions and practice problems. | 🟢 Completed |
+| **`Others`** | Miscellaneous Java programs and utilities. | 🟢 Completed |
 | **`More Coming Soon...`** | *Stay tuned for more assignments!* | ⏳ Pending |
 ---
 
