@@ -44,7 +44,8 @@ public static void main(String[] args){
 
             if(temperature[i] >10.00){
                 System.out.println("This temperature is invalid");
-System.out.printf("Sensor %d: %.1fC - ERROR: Reading Ignored%n", i, temperature);            }
+                System.out.printf("Sensor %d: %.1fC - ERROR: Reading Ignored%n", i, temperature[i]);
+            }
         }
 
 

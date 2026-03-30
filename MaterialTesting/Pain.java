@@ -34,18 +34,21 @@ public static void main(String[] args){
     Scanner input = new Scanner(System.in);
     
     while (structuralIntegrity > FAILURE_THRESHOLD) {
-        System.out.println("Enter pressure force for Cycle "+cycleCount+1);
+        System.out.println("Enter pressure force for Cycle "+(cycleCount+1));
         pressureForce = input.nextDouble();
-        structuralIntegrity--;
-    }
-
-    if(pressureForce > 20.0){
-        structuralIntegrity = structuralIntegrity - 5;
+        structuralIntegrity -= pressureForce;
+        
+        if(pressureForce > 20.0){
+            structuralIntegrity -= 5.0;
+        }
+        
+        System.out.println("Remaining Integrity: "+structuralIntegrity);
+        cycleCount++;
     }
 
     System.out.println();
-    System.out.println("Remaining Integrity: "+structuralIntegrity);
     System.out.println("Material Failure at Cycle "+cycleCount);
+    System.out.println("Final Integrity Level: "+structuralIntegrity);
 
 
 

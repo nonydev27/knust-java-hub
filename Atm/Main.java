@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     /**QUESTION 6*
 Write a program in Java to build simplified ATM interface that allows a user to perform multiple transactions in one session.
@@ -24,4 +26,40 @@ Write a program in Java to build simplified ATM interface that allows a user to 
 • After the loop, print the Final Balance.
 • Print the Total Transactions performed.
 • Use System.out.println and string concatenation. */
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        double balance = 1000.0;
+        int transactionCount = 0;
+        int userAction;
+
+        do {
+            System.out.println("\n=== ATM Menu ===");
+            System.out.println("1. Withdraw $100");
+            System.out.println("2. Deposit $100");
+            System.out.println("0. Exit & Print Receipt");
+            System.out.print("Enter your choice: ");
+            userAction = input.nextInt();
+
+            if (userAction == 1) {
+                if (balance >= 100) {
+                    balance -= 100;
+                    transactionCount++;
+                    System.out.println("Withdrawal successful. Current balance: $" + balance);
+                } else {
+                    System.out.println("Insufficient Funds!");
+                }
+            } else if (userAction == 2) {
+                balance += 100;
+                transactionCount++;
+                System.out.println("Deposit successful. Current balance: $" + balance);
+            }
+        } while (userAction != 0);
+
+        System.out.println("\n=== Receipt ===");
+        System.out.println("Final Balance: $" + balance);
+        System.out.println("Total Transactions: " + transactionCount);
+        
+        input.close();
+    }
 }

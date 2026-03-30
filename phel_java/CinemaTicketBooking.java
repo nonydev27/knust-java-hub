@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class CinemaTicketBooking {
+public class CinemaTicketBooking {
     public static void main(String[] args){
         double regularPrice = 25.00;
         double studentPrice = 15.00;

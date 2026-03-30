@@ -1,4 +1,4 @@
-class StudentMarks_Grade {
+public class StudentMarks_Grade {
     public static void main(String[] args){
         double[] midSem = {65, 45, 22};
         double[] exams = {74, 50, 90};

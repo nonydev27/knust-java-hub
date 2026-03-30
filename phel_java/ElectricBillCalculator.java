@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ElectricBillCalculator {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         final double COST_PER_KWH = 0.20;

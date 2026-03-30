@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ScienceLabExperiment_Q1 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         int n, i; //number of experiments

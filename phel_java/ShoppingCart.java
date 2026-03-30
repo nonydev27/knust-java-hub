@@ -7,7 +7,7 @@ the price of items in the shopping cart
     display
 */
 public class ShoppingCart {
-    static void main(String[] args){
+    public static void main(String[] args){
         double[] ItemPrice = {45.0, 120.5, 234.0, 111.2, 23.3};
         double totalPriceDue = 0.0;
 

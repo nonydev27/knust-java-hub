@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-class ATMInterface_Q6 {
-    public  static void main(String[] args) {
+public class ATMInterface_Q6 {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         double balance = 1000.0;

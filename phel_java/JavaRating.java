@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class JavaRating {
-    static void main(String[] args){
+    public static void main(String[] args){
         int[] rating = {2, 3, 4, 3, 5, 3, 4, 5, 2, 2, 3, 3, 4, 5, 1, 2, 4, 1, 2, 2};
         int count_1 = 0;
         int count_2 = 0;

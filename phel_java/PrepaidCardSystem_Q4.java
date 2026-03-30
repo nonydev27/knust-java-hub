@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class PrepaidCardSystem_Q4 {
+public class PrepaidCardSystem_Q4 {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 

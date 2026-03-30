@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CircuitBoardTest_Q5 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
         double boardHealth = 100.0;
@@ -27,11 +27,11 @@ public class CircuitBoardTest_Q5 {
             System.out.println(" ");
             spikeCount++;
 
-        } while ((boardHealth > 0) && (userChoice == 1));{
-            System.out.printf("Spikes board survived: %d%n", spikeCount);
-            if (boardHealth <= 0){
-                System.out.println("TEST TERMINATED: Component Destroyed.");
-            }
+        } while ((boardHealth > 0) && (userChoice == 1));
+        
+        System.out.printf("Spikes board survived: %d%n", spikeCount);
+        if (boardHealth <= 0){
+            System.out.println("TEST TERMINATED: Component Destroyed.");
         }
     }
 }

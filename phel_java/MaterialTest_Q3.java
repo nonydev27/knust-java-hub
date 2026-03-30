@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class MaterialTest_Q3 {
-    static void main(String[] args){
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
         double structuralIntegrity = 100.0; //starting health of material

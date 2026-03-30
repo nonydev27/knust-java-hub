@@ -1,5 +1,5 @@
 public class RefrigeratorWarehouse_Q2 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         double[] temperature = {2.5, 3.0, 15.0, 4.2, -1.0, 22.0, 3.8, 5.0};
         double sum = 0.0;
         int validSensorCount = 0;
