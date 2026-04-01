@@ -1,7 +1,7 @@
-import java.util.*;
+
 
 package SocialScience;
-
+import java.util.*;
 public class Main {
     public static void main(String[] args) {
         /*QUESTION 7*
@@ -18,13 +18,29 @@ public class Main {
     The grade obtained by each student based on the KNUST grading system.
 
     The frequency of occurrence of each grade (how many As, Bs, etc.).
-
+a.util.*;
     The average score of the class.
 
     The maximum and the minimum scores.
 
 Note for calculation: Since the lecturer marked both over 100, you will need to apply the formula:
 Final Mark=(Midsem×0.3)+(Exams×0.7) */
+
+      System.out.println("===== STUDENT GRADING SYSTEM =====");
+       
+      double midsemTotal = 0.30;
+      double examTotal = 0.70;
+
+      int[] midsemScores = {65, 48, 22, 32, 80, 12, 45, 25, 33, 67, 23, 45, 56, 34, 81}; 
+      int[] examScores = {78, 54, 90, 32, 66, 60, 48, 65, 45, 56, 33, 45, 67, 90, 67};
+      int[] finalScores ;
+      int[] midsemScoresNew;
+
+
+      //the for loop below is going to iterate in all midsemScores and then compute it as 30% in a new array
+      for(int i=0; i<midsemScores.length; i++){
+        midsemScoresNew = midsemScores[i] * midsemTotal;
+      }
 
     }
 }

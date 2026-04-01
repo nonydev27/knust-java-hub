@@ -20,31 +20,33 @@ You are tasked with developing the ElectricityBillCalculator class.
 * Maintain a running total for both Total Consumption and Total Cost.
 * Display the final totals after the loop finishes, formatted to 2 decimal places. */
 
-public static void main(String[] args) {
-    
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("===== ELECTRICITY BILL CALCULATOR =====");
 
-       final double COST_PER_KWH = 0.20;
-        int numberOfAppliances;
-        double baseCost;
-        double kwhConsumption;
-        double surcharge = 0.15;
+    public static void main(String[] args) {
+        final double COST_PER_KWH = 0.20;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter number of appliances: ");
+        int n = sc.nextInt();
 
-        System.out.println();
-        System.out.println("Enter the total number of appliances used: ");
-        numberOfAppliances = scanner.nextInt();
+        double totalConsumption = 0, totalCost = 0;
 
-     
+        for (int i = 1; i <= n; i++) {
+            System.out.print("kWh for appliance " + i + ": ");
+            double kwh = sc.nextDouble();
+            double cost = kwh * COST_PER_KWH;
+            String flag = "";
 
-        for(int i=0; i<numberOfAppliances; i++){
-            System.out.println("Enter the consumption(kwh) for device "+(i+1)+"/"+numberOfAppliances);
-            kwhConsumption = scanner.nextDouble();
-
-            if (baseCost) {
-                
+            if (kwh > 100) {
+                cost *= 1.15;
+                flag = "[SURCHARGE APPLIED]";
             }
+
+            System.out.printf("Appliance %d: %.2f kWh, Cost: $%.2f %s\n", i, kwh, cost, flag);
+            totalConsumption += kwh;
+            totalCost += cost;
         }
-        
-}}
+
+        System.out.printf("\nTotal Consumption: %.2f kWh\nTotal Cost: $%.2f\n", totalConsumption, totalCost);
+    }
+}
+
 

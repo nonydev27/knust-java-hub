@@ -2,70 +2,27 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Exam Score: ");
+        int exam = sc.nextInt();
+        System.out.print("Enter Assessment Score: ");
+        int assess = sc.nextInt();
+        System.out.print("Enter Fees Paid: ");
+        double fees = sc.nextDouble();
 
-        //requirement 1
-        //requirement 2
-
-        //fees && cert
-
-        //for loops
-
+        boolean passReq1 = (exam >= 25 && assess >= 15);
+        boolean passReq2 = (exam + assess == 39) && 
+                           ((exam == 25 && assess == 14) || (exam == 24 && assess == 15));
         
+        System.out.println("Exam: " + (exam >= 25 ? "Passed" : "Failed"));
+        System.out.println("Assessment: " + (assess >= 15 ? "Passed" : "Failed"));
 
-        Scanner input = new Scanner(System.in);
-        int examScore;
-        int Fees;
-        int assesment;
-
-        System.out.println(" Enter Exam Score: ");
-        examScore = input.nextInt();
-
-        System.out.println(" Enter Assesment Score: ");
-        assesment = input.nextInt();
-
-        System.out.println(" Enter Amount Paid(Fees): ");
-        Fees = input.nextInt();
-
-        boolean isPassed = false;
-        boolean isCondoned = false;
-
-     
-        if (examScore >= 25 && assesment >= 15) {
-            isPassed = true;
-        } 
-      
-        else if ((examScore == 24 && assesment == 15) || (examScore == 25 && assesment == 14)) {
-            isPassed = true;
-            isCondoned = true;
-        }
-
-     
-        if (isPassed) {
-            if (isCondoned) {
-                System.out.println("Academic Status: PASSED (CONDONED)");
-            } else {
-                System.out.println("Academic Status: PASSED");
-            }
-
-         
-            if (Fees >= 100) {
-                System.out.println("Result: CERTIFICATE ISSUED");
-            } else {
-                System.out.println("Result: NO CERTIFICATE (Fees unpaid)");
-            }
-
-            if (isPassed == false){
-
-            if ((examScore != 24  && assesment != 15) || (examScore !=25 && assesment != 14)){
-                System.out.println("You have failed to meet the necesary pass mark!");
-            }
-            }
-
+        if ((passReq1 || passReq2) && fees == 100) {
+            System.out.println("Certificate Issued.");
+        } else if (exam < 25 && assess < 15) {
+            System.out.println("Repeated.");
         } else {
-            System.out.println("Academic Status: FAILED");
-            System.out.println("Result: REPEATED");
+            System.out.println("Failed.");
         }
-
-        
     }
 }
