@@ -1,39 +1,67 @@
+// Declare the package for this Java file to organize the code
 package OOP.phel_java;
 
+// Blank line for readability
+
+// Import the Scanner class from java.util package to handle user input
 import java.util.Scanner;
 
-// Class to handle greeting
+// Blank line for readability
+
+// Define a class named GreetingApp to handle user greeting functionality
 class GreetingApp {
-    // Private field for name
+    // Declare a private field of type String to store the user's name, ensuring encapsulation
     private String name;
 
-    // Method to set name from input
+    // Blank line
+
+    // Define a public method named setName that takes a Scanner object as parameter to read user input
     public void setName(Scanner input) {
+        // Print a message to the console prompting the user to enter their name
         System.out.println("Please state your name:");
+        // Read the next line of input from the Scanner and assign it to the name field using 'this' for clarity
         this.name = input.nextLine();
     }
 
-    // Method to get greeting
+    // Blank line
+
+    // Define a public method named getGreeting that returns a String containing the greeting message
     public String getGreeting() {
+        // Return a concatenated string that includes "Hello, ", the user's name, and a welcome message with a newline
         return "Hello, " + name + "!\nWelcome to this java platform!";
     }
 }
 
-// Main class to run the greeting app and shopping cart
+// Blank line
+
+// Define the main public class named Main, which contains the entry point of the program
 public class Main {
+    // Define the main method, the starting point of the Java application, taking an array of String arguments
     public static void main(String[] args) {
-        // Greeting part
+        // Instantiate a new GreetingApp object to handle the greeting functionality
         GreetingApp app = new GreetingApp();
+        // Create a new Scanner object to read input from the standard input stream (System.in)
         Scanner input = new Scanner(System.in);
 
+        // Blank line
+
+        // Call the setName method on the app object, passing the Scanner to prompt and set the user's name
         app.setName(input);
+        // Print the greeting message returned by the getGreeting method to the console
         System.out.println(app.getGreeting());
 
-        // Shopping Cart part
+        // Blank line
+
+        // Declare and initialize an array of double values representing item prices for the shopping cart
         double[] ItemPrice = {45.0, 120.5, 234.0, 111.2, 23.3};
+        // Create a new ShoppingCart object, passing the item prices array to its constructor
         ShoppingCart cart = new ShoppingCart(ItemPrice);
+        // Call the displayItems method on the cart object to show the items and their prices
         cart.displayItems();
 
+        // Blank line
+
+        // Close the Scanner object to release system resources and prevent resource leaks
         input.close();
     }
 }

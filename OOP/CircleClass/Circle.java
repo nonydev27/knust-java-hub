@@ -1,44 +1,68 @@
+// Declare the package for this Java file to organize the code
 package OOP.CircleClass;
 
-// Circle class demonstrates encapsulation with private fields and public methods
+// Blank line
+
+// Define a class named Circle to represent a circle with encapsulation
 class Circle {
-    // Private field for radius to ensure encapsulation
+    // Declare a private double field for the radius to ensure data encapsulation
     private double radius;
-    // Constant for PI value
+    // Declare a private final double constant for the value of PI
     private final double PI = 3.14159;
 
-    // Constructor with radius parameter to initialize the circle
+    // Blank line
+
+    // Define a public constructor for Circle that takes a double parameter for radius
     public Circle(double r) {
+        // Assign the parameter r to the private radius field
         radius = r;
     }
 
-    // Default constructor setting radius to 0.0
+    // Blank line
+
+    // Define a public default constructor for Circle that sets radius to 0.0
     public Circle() {
+        // Set the radius to 0.0 as default
         radius = 0.0;
     }
 
-    // Setter method to change the radius
+    // Blank line
+
+    // Define a public setter method named setRadius that takes a double parameter to update radius
     public void setRadius(double r) {
+        // Assign the parameter r to the private radius field
         radius = r;
     }
 
-    // Getter method to retrieve the radius
+    // Blank line
+
+    // Define a public getter method named getRadius that returns the radius as double
     public double getRadius() {
+        // Return the value of the private radius field
         return radius;
     }
 
-    // Method to calculate and return the area of the circle
+    // Blank line
+
+    // Define a public method named getArea that calculates and returns the area of the circle as double
     public double getArea() {
+        // Calculate area using PI * radius * radius and return it
         return PI * radius * radius;
     }
 
-    // Method to calculate and return the diameter
+    // Blank line
+
+    // Define a public method named getDiameter that calculates and returns the diameter as double
     public double getDiameter() {
+        // Calculate diameter as radius * 2 and return it
         return radius * 2;
     }
 
-    // Method to calculate and return the circumference
+    // Blank line
+
+    // Define a public method named getCircumference that calculates and returns the circumference as double
     public double getCircumference() {
+        // Calculate circumference as 2 * PI * radius and return it
         return 2 * PI * radius;
     }
 }
