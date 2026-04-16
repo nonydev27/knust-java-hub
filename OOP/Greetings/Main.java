@@ -8,40 +8,6 @@ import java.util.Scanner;
 
 // Blank line
 
-// Define a class named Greeter to handle greeting functionality
-class Greeter {
-    // Declare a private String field to store the user's name
-    private String name;
-
-    // Blank line
-
-    // Define a public method named setName that takes a Scanner and prompts for name until valid
-    public void setName(Scanner scanner) {
-        // Start an infinite loop to keep prompting until a non-blank name is entered
-        while (true) {
-            // Print prompt for name
-            System.out.println("Enter your name: ");
-            // Read the name from scanner
-            name = scanner.nextLine();
-            // Check if name is not blank
-            if (!name.isBlank()) {
-                // Break the loop if valid
-                break;
-            }
-        }
-    }
-
-    // Blank line
-
-    // Define a public method named getGreeting that returns the greeting message as String
-    public String getGreeting() {
-        // Return a concatenated string with "Good day " and the name
-        return "Good day " + name;
-    }
-}
-
-// Blank line
-
 // Define the main public class named Main, which contains the entry point of the program
 public class Main {
     // Define the main method, the starting point of the Java application, taking an array of String arguments

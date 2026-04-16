@@ -1,46 +1,59 @@
+import java.util.Scanner;
+import java.util.InputMismatchException;
 
-
-package SocialScience;
-import java.util.*;
 public class Main {
     public static void main(String[] args) {
-        /*QUESTION 7*
-        A Social Science lecturer marked her mid-semester and end-of-semester examination scripts
-         each over 100 instead of 30 and 70 respectively. After marking, she consulted you, a DIT 2 student, 
-         to develop a program in JAVA to compute the final marks of the students, and also indicate the appropriate letter 
-         grade obtained by each of the students using the grading system of KNUST. In addition, she asked that your program ought to 
-         determine how many students scored each of the letter grades.*/   
+        Scanner sc = new Scanner(System.in);
+        GradeReport report = new GradeReport();
 
-         /*Your program should output the following:
+        System.out.print("Enter number of students: ");
+        int count;
+        try {
+            count = sc.nextInt();
+            if (count <= 0) {
+                System.out.println("Number of students must be a positive integer.");
+                sc.close();
+                return;
+            }
+        } catch (InputMismatchException e) {
+            System.out.println("Invalid input! Please enter a positive integer for number of students.");
+            sc.close();
+            return;
+        }
 
-    The final score of each student (calculated by scaling mid-sem to 30% and exams to 70%).
+        for (int i = 0; i < count; i++) {
+            while (true) {
+                try {
+                    System.out.println("\nStudent " + (i + 1));
+                    System.out.print("Index Number: ");
+                    String id = sc.nextLine();
+                    if (id.trim().isEmpty()) {
+                        System.out.println("Index number cannot be empty.");
+                        continue;
+                    }
+                    System.out.print("Raw Mid-Sem (0-100): ");
+                    double mid = sc.nextDouble();
+                    System.out.print("Raw Exam (0-100): ");
+                    double exam = sc.nextDouble();
 
-    The grade obtained by each student based on the KNUST grading system.
+                    if (mid < 0 || mid > 100 || exam < 0 || exam > 100) {
+                        System.out.println("Scores must be between 0 and 100.");
+                        sc.nextLine(); // Clear buffer
+                        continue;
+                    }
 
-    The frequency of occurrence of each grade (how many As, Bs, etc.).
-a.util.*;
-    The average score of the class.
+                    report.addStudent(new Student(id, mid, exam));
+                    break; // Exit loop if input is valid
+                } catch (InputMismatchException e) {
+                    System.out.println("Invalid input! Please enter numbers for scores.");
+                    sc.nextLine(); // Clear buffer
+                }
+            }
+        }
 
-    The maximum and the minimum scores.
-
-Note for calculation: Since the lecturer marked both over 100, you will need to apply the formula:
-Final Mark=(Midsem×0.3)+(Exams×0.7) */
-
-      System.out.println("===== STUDENT GRADING SYSTEM =====");
-       
-      double midsemTotal = 0.30;
-      double examTotal = 0.70;
-
-      int[] midsemScores = {65, 48, 22, 32, 80, 12, 45, 25, 33, 67, 23, 45, 56, 34, 81}; 
-      int[] examScores = {78, 54, 90, 32, 66, 60, 48, 65, 45, 56, 33, 45, 67, 90, 67};
-      int[] finalScores ;
-      int[] midsemScoresNew;
-
-
-      //the for loop below is going to iterate in all midsemScores and then compute it as 30% in a new array
-      for(int i=0; i<midsemScores.length; i++){
-        midsemScoresNew = midsemScores[i] * midsemTotal;
-      }
-
+        report.displayTable();
+        report.displayStatistics();
+        report.saveToFile();
+        sc.close();
     }
 }
