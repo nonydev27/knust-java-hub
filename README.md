@@ -42,7 +42,7 @@ Here is what is currently available in the hub:
 | **`VotingSystem`** | A system which takes input of a user and checks if he or she is eligble to vote using if statements. | 🟢 Completed |
 | **`CheckDayStatus`** | This program is to check the present day and then render an output using switches | 🟢 Completed |
 | **`CinemaTicketBooking`** | This system allows users to select multiple ticket types and provides a final summary | 🟢 Completed |
-| **`KioskSystem`** | A kiosk system for managing customer orders and transactions | 🟢 Completed |
+| **`KiosksSystem`** | A kiosk system for managing customer orders and transactions | 🟢 Completed |
 | **`ElectricityBillCalculator`** | A local utility company requires a Java program to help residents estimate their electricity bills based on individual appliance usage. | 🟢 Completed |
 | **`FuelConsumptionAnalysis`** | A logistics company tracks the daily fuel consumption of a single vehicle over a one-week period. | 🟢 Completed |
 | **`Atm`** | A simplified ATM simulation system that allows a user to perform multiple transactions in one session | 🟢 Completed |
